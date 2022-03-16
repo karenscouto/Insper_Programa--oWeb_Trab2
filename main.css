@@ -67,7 +67,7 @@ a {
     padding: 2rem 3.2rem;
 }
 
-.top-brand :hover {
+.top-brand:hover {
     background-color: #5d3b8d;
 }
 
@@ -137,7 +137,7 @@ a {
     margin: 0.5rem;
 }
 
-.article-social-icons a.hover {
+.article-social-icons a:hover {
     font-size: 2rem;
     text-decoration: none;
     color: rgba(150, 150, 150, 1);
@@ -162,14 +162,14 @@ img.img-opening {
     padding: 0 6rem;
 }
 
-.img-block #small img {
+.img-block.small img {
     display: block;
     width: 100%;
     height: auto;
     margin: 0;
 }
 
-.img-block #small .img-caption {
+.img-block.small .img-caption {
     display: block;
     width: 100%;
     height: auto;
@@ -198,7 +198,7 @@ img.img-opening {
 
 .article-body p.lead {
     font-size: 2.2rem;
-    font-weight: var(-font-weight-lead);
+    font-weight: var(--font-weight-lead);
     color: var(--font-color);
     background-color: #fff;
     padding: 6rem 6rem 1.6rem 6rem;
@@ -211,7 +211,7 @@ img.img-opening {
     margin: 0 auto 3.2rem auto;
 }
 
-.subheading {
+.article-body p.subheading {
     font-weight: 500;
     font-size: 2rem;
 }
